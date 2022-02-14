@@ -1,4 +1,4 @@
-package main.Week_1_31_2021;
+package main.Week_1_31_2022;
 
 public class HappyNumber {
     public static void main(String[] args) {

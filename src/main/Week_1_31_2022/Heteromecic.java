@@ -1,4 +1,4 @@
-package main.Week_1_31_2021;
+package main.Week_1_31_2022;
 
 public class Heteromecic {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Heteromecic {
     }
 
     static boolean isHeteromecic(int num) {
-        double sqRoot = Math.sqrt((double) num);
+        double sqRoot = Math.sqrt(num);
         double floor = Math.floor(sqRoot);
         double ceil = Math.ceil(sqRoot);
         if(floor != ceil)

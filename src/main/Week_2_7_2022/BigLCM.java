@@ -1,4 +1,4 @@
-package main.Week_2_7_2021;
+package main.Week_2_7_2022;
 
 import java.util.Arrays;
 
@@ -22,7 +22,7 @@ public class BigLCM {
         else if(arr.length == 0)
             return -1;
         else {
-            int newArr[] = Arrays.copyOf(arr,arr.length-1);
+            int[] newArr = Arrays.copyOf(arr,arr.length-1);
             return lcm(lcmOfArray(newArr),arr[arr.length-1]);
         }
     }

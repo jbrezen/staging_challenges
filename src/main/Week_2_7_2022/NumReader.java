@@ -1,4 +1,4 @@
-package main.Week_2_7_2021;
+package main.Week_2_7_2022;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -19,7 +19,7 @@ public class NumReader {
         if(baseStr.length() % 2 == 1)
             return new BigInteger("-1");
 
-        List<String> pairs = new ArrayList<String>();
+        List<String> pairs = new ArrayList<>();
         while(baseStr.length() > 0) {
             pairs.add(baseStr.substring(0,2));
             baseStr = baseStr.substring(2);
